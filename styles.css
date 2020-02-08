@@ -7,14 +7,12 @@
 
 body {
     background-color: rgb(8, 20, 38); 
-    background-size: cover;
-    height: auto;
     font-family: "Roboto", sans-serif;
   }
 
 .container {
-    width: 800px;
-    height: 600px;
+    max-width: 800px;
+    height: 700px;
     background: #fff;
     margin: 50px auto;
     box-sizing: border-box;
@@ -22,19 +20,27 @@ body {
     box-shadow: 0 0 20px rgba(72,98,85,0.6);
 }
 
+p{
+    text-align: center;
+    letter-spacing: 1px;  
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #d38818
+  }
+
 .container p{
-    text-transform: uppercase;
     text-align: center;
     font-size: 45px;
     margin-bottom: 20px;
-    color: #486255;
+    color: rgb(0, 0, 0);
     letter-spacing: 1px;
 }
 
 .input, .msg .area{
     width: 100%;
     padding: 20px;
-    box-sizing: 25px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
     border: 2px solid #e9e9e9;
     font-size: 14px;
     border-radius: 5px;
@@ -58,7 +64,7 @@ body {
 
 .btn{
     width: 250px;
-    background: #448866;
+    background: #e4bc0d;
     height: 50px;  
     text-align: center;
     line-height: 50px;  
@@ -71,7 +77,7 @@ body {
 
 .input:focus
 .msg .area:focus{
-    border: 2px solid #486255;
+    border: 2px solid #f3ac11;
 }
 
 ::-webkit-input-placeholder{
